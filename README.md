@@ -1,16 +1,11 @@
-Description
-===============
+# Give Up GitHub
 
-This mode provides simple syntax highlighting for the OSX/iOS strings files, typically named like **Localizable.strings** or **Info.strings**. See [Apple documentation](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/loadingresources/Strings/Strings.html) for details.
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
 
-Usage
-=====
+You can now find this project at [https://codeberg.org/fourier/strings-mode](https://codeberg.org/fourier/strings-mode) instead.
 
-Add the following to your .emacs file:
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
 
-```scheme
-(require 'strings-mode)
-(setq auto-mode-alist (cons '("\\.strings\\'" . strings-mode)
-                            auto-mode-alist))
-```
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
 
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
